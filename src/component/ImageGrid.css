@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    text-align: center;
+
+    width: 100%;
+}
+
+.image-item-container {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
